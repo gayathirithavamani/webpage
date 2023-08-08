@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  display: inline-block;
+  padding: 10px 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.group1 {
+  background-image: url(./images/img1.jpg);
+  background-size: 1349px 600px;
+  width: 1349px;
+  height: 600px;
+  background-repeat: no-repeat;
+}
+.overlay-text {
+  background-color: rgba(187, 87, 87, 0.5);
+  padding: 27px;
+
+  position: absolute;
+  top: 270px;
+  left: 1px;
+  margin-left: -200px;
+  transform: translate(50%, -50%);
+  width: 570px;
+  color: white;
+}
+.group2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(196, 48, 176, 0.938),
+    yellow
+  );
+  height: 650px;
+}
+.headline {
+  top: 750px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 560px;
+  color: white;
+  font-size: 47px;
+}
+.color1 {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: 900px;
+  left: 120px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+.color2 {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: 900px;
+  left: 580px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+.color3 {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  position: absolute;
+  top: 900px;
+  left: 1050px;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+.img1 {
+  border-top-right-radius: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.img2 {
+  border-top-right-radius: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.img3 {
+  border-top-right-radius: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.one {
+  position: absolute;
+  top: 215px;
+  margin-left: 50px;
+}
+.two {
+  position: absolute;
+  top: 215px;
+  margin-left: 60px;
+}
+.three {
+  position: absolute;
+  top: 215px;
+  margin-left: 65px;
+}
+.cont1 {
+  margin-left: 8px;
+}
+.cont2 {
+  margin-left: 8px;
+}
+.cont3 {
+  margin-left: 8px;
+}
+.end {
+  /* top: 300px;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 560px;
+  color: white;
+  font-size: 47px; */
+}
